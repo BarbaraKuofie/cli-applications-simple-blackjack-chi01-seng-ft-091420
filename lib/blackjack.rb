@@ -5,7 +5,7 @@ end
 
 def deal_card (number)
   # code #deal_card here
-  puts "Your cards add up to #{card_total}"
+  rand
 end
 
 def display_card_total
