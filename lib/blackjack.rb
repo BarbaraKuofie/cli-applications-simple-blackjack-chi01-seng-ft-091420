@@ -38,7 +38,7 @@ end
 def hit? (current_card_total)
   # code hit? here
    expect($stdout).to receive(:puts).with(prompt_user)
-   expect(self).to(get_user_input).and_return("s") OR expect(self).to(get_user_input).and_return("h")
+   expect(self).to(get_user_input).and_return("s") 
 end
 
 def invalid_command
