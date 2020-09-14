@@ -35,8 +35,10 @@ def initial_round
   sum 
 end
 
-def hit?
+def hit? (current_card_total)
   # code hit? here
+   expect($stdout).to receive(:puts).with(prompt_user)
+   expect(self).to(get_user_input).and_return("s") OR 
 end
 
 def invalid_command
