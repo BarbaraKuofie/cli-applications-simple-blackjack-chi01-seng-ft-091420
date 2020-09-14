@@ -50,7 +50,7 @@ end
 
 def invalid_command
   # code invalid_command here
-  "Please enter valid command"
+  puts "Please enter valid command"
   prompt_user
 end
 
