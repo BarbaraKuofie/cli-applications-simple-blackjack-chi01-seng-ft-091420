@@ -5,9 +5,7 @@ end
 
 def deal_card (number)
   # code #deal_card here
-  if number 
   puts "Your cards add up to #{card_total}"
-end 
 end
 
 def display_card_total
