@@ -49,7 +49,8 @@ end
 
 def invalid_command
   # code invalid_command here
-  puts "Please enter valid command"
+  "Please enter valid command"
+  prompt_user
 end
 
 #####################################################
